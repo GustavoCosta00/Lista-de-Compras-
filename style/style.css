@@ -1,0 +1,94 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgb(81, 60, 178);
+}
+
+h1{
+    text-align: center;
+    margin-top: 30px;
+    color:  rgb(21, 21, 20);;
+}
+
+#containerInputText{
+    margin-top: 30px;
+    display: flex;
+    justify-content:center;
+}
+
+#inputText{
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#inputBtn{
+    width: 50px;
+    background-color: rgb(14, 14, 13);
+    padding: 15px;
+    margin-left: 20px;
+    color: white;
+    cursor: pointer;
+    border-radius: 30px;
+    font-size: 20px;
+    height: 50px;
+}
+
+.task{
+    width: 400px;
+    height: 100px;
+    background-color: rgb(12, 12, 12);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#completed{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(13, 157, 13);
+    margin-right: 10px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 56px;
+    border-radius: 30px;
+}
+
+.fa-solid{
+    color: white;
+}
+
+#exclude{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(187, 26, 17);
+    margin-right: 10px;
+    border-radius: 30px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 50px;
+}
+
+#btns{
+    display: flex;
+    margin-left: 10px;
+}
+
+.titleText{
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+    letter-spacing: 3px;
+    font-family: cursive;
+}
+
